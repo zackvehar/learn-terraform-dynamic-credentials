@@ -12,7 +12,7 @@ variable "tfc_hostname" {
 
 variable "tfc_organization_name" {
   type        = string
-  description = "The name of your Terraform Cloud organization"
+  description = "zv-new-org"
 }
 
 variable "tfc_project_name" {
@@ -24,7 +24,7 @@ variable "tfc_project_name" {
 variable "tfc_workspace_name" {
   type        = string
   default     = "dynamic-credentials-trust-relationship"
-  description = "The name of the workspace that you'd like to create and connect to AWS"
+  description = "networking-team"
 }
 
 variable "aws_region" {
