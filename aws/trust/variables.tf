@@ -12,7 +12,7 @@ variable "tfc_hostname" {
 
 variable "tfc_organization_name" {
   type        = string
-  description = "zv-new-org"
+  description = "instruqt-dynamic-creds-jeyccgviaqph"
 }
 
 variable "tfc_project_name" {
@@ -24,7 +24,7 @@ variable "tfc_project_name" {
 variable "tfc_workspace_name" {
   type        = string
   default     = "dynamic-credentials-trust-relationship"
-  description = "networking-team"
+  description = "learn-terraform-dynamic-credentials"
 }
 
 variable "aws_region" {
